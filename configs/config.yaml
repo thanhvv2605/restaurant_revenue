@@ -1,0 +1,10 @@
+model:
+  input_dim: 16  # Số lượng đặc trưng (số cột sau khi mã hóa)
+  hidden_units: [64, 32]
+  output_dim: 1
+
+training:
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.001
+  validation_split: 0.2
